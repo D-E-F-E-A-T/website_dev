@@ -1,0 +1,195 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,500;0,700;1,500;1,700&display=swap');
+
+/* Reset */
+* {
+    padding:0;
+    margin:0;
+    vertical-align:baseline;
+    list-style:none;
+    border:0;
+}
+
+/* Global */
+body{
+    background-image: url('../img/fundo.jpg');
+    font-family: 'Exo', sans-serif;
+}
+
+p{
+    font-weight: 500;
+    font-style: italic;
+    color: #fff !important;
+    font-size: 14pt;
+}
+
+h2{
+    font-size: 30pt;
+    color: #5fffc7 !important;
+    text-align: center;
+}  
+
+h3{
+    font-size: 20pt;
+    color: #5fffc7 !important;
+    text-align: center;
+}
+ 
+/* Navbar items */
+.navbar{
+    background-color: #42f5b6f5 !important;
+}
+
+#logoImg{
+    width: 200px;
+    height: 80px;
+    border-radius: 10px;
+}
+
+/*
+#logo:hover{
+    box-shadow: 7px 7px 30px #754BA8;
+    border-radius: 10px;
+    transition: 0.6s;
+}
+*/
+
+.nav-item{
+    margin-left: 30px;
+}
+
+.link-menu{
+    font-style: italic;
+    font-size: 15pt;
+    text-shadow: 1px 1px 1px #754BA8;
+    font-weight: 500;
+    color:rgb(255, 255, 255) !important;
+    border-radius: 30px;
+    padding: 10px 20px !important;
+}
+
+.link-menu:hover{
+    background-color: #fff;
+    color: #754BA8 !important;
+    text-shadow: 1px 1px 1px #42f5b6f5;
+    border-radius: 30px;
+    transition: 1s;
+    box-shadow: 10px 10px 20px #754BA8;
+}
+
+/* Main apresentation */
+.jumbotron{
+    background-color: #533A71;
+    /* margin-top: 130px;  case navbar atribute fixed-top */
+    margin-top: 15px;
+    box-shadow: 10px 10px 10px #754BA8;
+}
+
+hr{
+    background-color: #fff;
+}
+
+.icons{
+    padding: 5px;
+    align-content: center;
+    margin: 10px;
+    border-radius: 100px;
+}
+
+.icons:hover{
+    text-decoration: none;
+    background-color: #5fffc7;
+    box-shadow: 5px 5px 10px #5fffc7;
+    border-radius: 100px;
+    transition: 1s;
+}
+
+.icons-img{
+    width: 50px;
+    height: 40px;
+    padding-left: 10px;  
+}
+
+#icon-git-img{
+    width: 100px;
+    height: 40px; 
+    padding: 0;
+}
+
+#img-dev {
+    width: 270px;
+    height: 270px;
+}
+
+/* Cards - Projects content */
+.cards{
+    background-color: #5fffc7c4;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+#card-left  {
+    background-color:  #533A71;
+    /* box-shadow: 200px 0 100px #754BA8; */
+}
+
+#card-right {
+    background-color:  #533A71;
+    /* box-shadow: -50px 0 100px #754BA8; */
+}
+
+.card-description{
+    text-align: center;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.card-description h3, .p-dark, .p-dark-list{
+    color: #533A71 !important;
+}
+
+.p-dark-list{
+    font-weight: 700;
+}
+
+#card-end{
+    margin-bottom: 30px;
+}
+
+/* Slides in card-body */
+.test-card{
+    width: 800px;
+    height: 600px;
+}
+
+/* Form */
+#card-form{
+    background-color: #533A71;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    box-shadow: 10px 10px 10px #754BA8;
+}
+#card-form .card-header{
+    background-color: #754BA8;
+    border-radius: 20px;
+}
+
+.card-body input, .card-body textarea{
+    width: 700px;
+    margin: auto;
+}
+
+/* Footer */
+.footer{ 
+    background-color: #42f5b6f5;
+    height: 70px;
+    padding: 20px;
+    text-align: center;
+}
+
+#copy-icon{
+    width: 25px;
+    height: 25px;
+}    
+

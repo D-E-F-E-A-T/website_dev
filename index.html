@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedro Lima - Dev</title>
+    <link rel="shortcut icon" href="public/img/icons/favicon.ico" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="public/css/bootstrap.min.css">
+    <!-- Custom CSS-->
+    <link rel="stylesheet" href="public/css/style.css">
+</head>
+<body>
+    
+    <nav class="navbar <!--fixed-top--> navbar-expand-lg navbar-light bg-light">
+
+        <div class="container">
+            <a href="/" id="logo">
+                <h1>
+                    <img id="logoImg" src="public/img/logo.png" alt="Logotipo Pedro Lima dev">
+                </h1>
+            </a>
+            
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#contentNavbar" aria-controls="contentNavbar" aria-expanded="false" aria-label="Altera Navageação">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="contentNavbar">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a href="#apresentation" class="link-menu nav-link">HOME</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#projects" class="link-menu nav-link">PROJETOS</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#footer" class="link-menu nav-link">CONTATO</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </nav>
+
+    <div class="apresentation container" id="apresentation">
+        <div class="jumbotron">
+            <div class="row">
+                <div class="col-8">
+                    <h2>Quem sou eu....<h2>
+                    <p>
+                        Programador Júnior, técnologo em Gestão da Tecnologia da Informação pela Universidade da Cidade de São Paulo.
+                    </p>
+                    <p>
+                        Entusiasta de JavaScript, estudo a linguagem desde a metade de 2019, e junto com ela busco aperfeiçoamento em tecnologias voltadas para o Desenvolvimento Web, tais como: HTML, CSS, Bootstrap, Node.JS, MySQL, entre outras. 
+                    </p>
+                    <hr class="my-4">
+                    <p>
+                        Siga....
+                    </p>
+
+                    <a target="_blank" class="icons" href="https://www.facebook.com/profile.php?id=100029800123175">
+                        <img class="icons-img" src="public/img/icons/facebook.png" alt="ícone do Facebook">
+                    </a>
+
+                    <a target="_blank" class="icons" href="https://www.instagram.com/_p_limma/">
+                        <img class="icons-img" src="public/img/icons/instagram.png" alt="Ícone do Instagram">
+                    </a>
+
+                    <a target="_blank" class="icons" href="https://www.linkedin.com/in/pedro-lima-832514195/">
+                        <img class="icons-img" src="public/img/icons/linkedin.png" alt="Ícone do Linkedin">
+                    </a>
+                    
+                    <a target="_blank" class="icons" href="https://github.com/lima-pedro">
+                        <img class="icons-img" id="icon-git-img" src="public/img/icons/git.png" alt="Ícone do GitHub">
+                    </a>
+                </div>
+
+                <div class="col-4">
+                    <img id="img-dev" src="public/img/foto-dev.jpg" alt="Foto de Pedro Lima - Desenvolvedor" class="img-thumbnail roudend mx-auto d-block" >
+                </div>
+            </div>
+        </div>
+    </div>  
+
+    <div class="projects container" id="projects">
+
+        <div class="cards row">
+
+            <div class="col-lg-6">
+                <div class="card" id="card-left">
+
+                    <div class="card-header">
+                        <h3>EUROBLOCOS</h3>
+                    </div>
+
+                    <div class="card-body">
+                        <img src="public/img/euroblocos/euro08.PNG" alt="">
+                    </div>
+                    
+                </div>
+            </div>    
+
+            <div class="col-lg-6" id="card-description">
+                <div class="card-description container">
+                    <h3>Site - Euroblocos</h3>
+                    <p class="p-dark">
+                        Criação de site institucional, com utilização das tecnologias:
+                        <ul>
+                            <li>
+                                <p class="p-dark-list">HTML5</p>
+                            </li>
+                            <li>
+                                <p class="p-dark-list">CSS3</p>
+                            </li>
+                            <li>
+                                <p class="p-dark-list">JavaScript</p>
+                            </li>
+                            <li>
+                                <p class="p-dark-list">Bootstrap</p>
+                            </li>
+                            <li>
+                                <p class="p-dark-list">PHP</p>
+                            </li>
+                        </ul>
+                    </p>
+                    <p class="p-dark">
+                        Feito o tratamento e redimensionamento de todas as imagens, design de página para álbum com fotos dos produtos e formulário para contato.
+                    </p>
+
+                    <!-- Modal button -->
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg">FOTOS</button>
+                    <!-- End Modal button-->
+
+                    <!-- Modal layout-->
+                    <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-lg">
+
+                            <!-- Modal Content-->
+                            <div class="modal-content">
+
+                                <!-- Carousel -->
+                                <div class="carousel-slide" data-ride="carousel">
+                                    <div class="carousel-inner">
+
+                                        <div class="carousel-item active">
+                                            <img class="test-card" src="public/img/euroblocos/euro01.PNG" alt="teste 1" >
+                                        </div>
+
+                                        <div class="carousel-item ">
+                                            <img class="test-card" src="public/img/euroblocos/euro02.PNG" alt="teste 1" >
+                                        </div>
+
+                                        <div class="carousel-item ">
+                                            <img class="test-card" src="public/img/euroblocos/euro03.PNG" alt="teste 1" >
+                                        </div>
+
+                                        <div class="carousel-item ">
+                                            <img class="test-card" src="public/img/euroblocos/euro04.PNG" alt="teste 1" >
+                                        </div>
+
+                                        <div class="carousel-item ">
+                                            <img class="test-card" src="public/img/euroblocos/euro05.PNG" alt="teste 1" >
+                                        </div>
+
+                                        <div class="carousel-item ">
+                                            <img class="test-card" src="public/img/euroblocos/euro06.PNG" alt="teste 1" >
+                                        </div>
+
+                                        <div class="carousel-item ">
+                                            <img class="test-card" src="public/img/euroblocos/euro07.PNG" alt="teste 1" >
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <!-- End Carousel -->
+
+                            </div>
+                            <!-- End Modal Content -->
+                        </div>
+                    </div>
+                    <!-- End Modal layout-->
+                </div>
+            </div>
+
+        </div>
+
+        <div class="cards row">
+
+            <div class="col-lg-6" id="card-description">
+                <div class="card-description container">
+                    <h3>Site - Euroblocos</h3>
+                    <p class="paragraph-dark">
+                        Criação de site institucional, com utilização das tecnologias:
+                        <ul>
+                            <li>
+                                <p class="paragraph-dark">HTML5</p>
+                            </li>
+                            <li>
+                                <p class="paragraph-dark">CSS3</p>
+                            </li>
+                            <li>
+                                <p class="paragraph-dark">JavaScript</p>
+                            </li>
+                            <li>
+                                <p class="paragraph-dark">Bootstrap</p>
+                            </li>
+                            <li>
+                                <p class="paragraph-dark">PHP</p>
+                            </li>
+                        </ul>
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+                <div class="card" id="card-right">
+                    <div class="card-header">
+                        <h3>Projeto 01</h3>
+                    </div>
+                    <div class="card-body">
+                        <p>
+                            Fotos do projeto 1
+                        </p>
+                    </div>
+                    <div class="card-footer">
+                        <button id="btn-card" class="btn btn-primary">Abrir modal com fotos</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="cards row" id="card-end">
+
+            <div class="col-lg-6">
+                <div class="card" id="card-left">
+                    <div class="card-header">
+                        <h3>Projeto 01</h3>
+                    </div>
+                    <div class="card-body">
+                        <p>
+                            Fotos do projeto 1
+                        </p>
+                    </div>
+                    <div class="card-footer">
+                        <button id="btn-card" class="btn btn-primary">Abrir modal com fotos</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6" id="card-description">
+                <div class="card-description container">
+                    <h3>Descrição do projeto</h3>
+                    <p class="paragraph-dark">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus voluptate sunt consequatur, quo ratione ex, adipisci consequuntur soluta quis expedita quaerat tempore hic est? Voluptates quis rerum ipsam cupiditate distinctio?
+                    </p>
+                </div>
+            </div>
+
+        </div>
+       
+    </div>
+
+    <div class="form container" id="form">
+        <div class="card" id="card-form">
+            
+            <div class="card-header">
+                <h3 id="form-h3">Entre em contato comigo</h3>
+            </div>
+
+            <div class="card-body">
+
+                <form action="./public/main.js" class="form" method="POST">
+                    <div class="form-group">
+                        <input class="form-control" name="name" type="text" placeholder="Seu nome          ex.: João José">
+                    </div>
+                    <div class="form-group">
+                        <input class="form-control" name="email" type="text" type="email" placeholder="Seu e-mail         ex.: exemplo@email.com">
+                    </div>
+                    <div class="form-group">
+                        <input class="form-control" name="phone" type="text" type="text" placeholder="Seu telefone      ex.: (99) 9 9999-9999">
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control" name="content" type="text" placeholder="Escreva o que precisa...." rows="7"></textarea>
+                    </div>
+
+                    <button class="btn btn-success btn-block">ENVIAR</button>
+                </form>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="footer container-fluid" id="footer">
+        <div class="container">
+            <p class="paragraph-dark" id="paragraph-footer">Todos os direitos reservados <img id="copy-icon" src="public/img/icons/copyright.png" alt="Icone de direitos autorais"> Pedro Lima - 2020</p> 
+        </div>
+    </div>
+    
+    <!-- jQuery -->
+    <script src="public/js/jquery-3.4.1.min.js"></script>
+    <!-- Popper.js -->
+    <script src="public/js/popper.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="public/js/bootstrap.min.js"></script>
+    <!-- Custom JS -->
+    <script src="public/js/main.js"></script>
+</body>
+</html>
