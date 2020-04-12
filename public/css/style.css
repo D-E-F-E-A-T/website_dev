@@ -41,8 +41,6 @@ h3{
 }
 
 #logoImg{
-    width: 200px;
-    height: 80px;
     border-radius: 10px;
 }
 
@@ -105,23 +103,14 @@ hr{
 }
 
 .icons-img{
-    width: 50px;
-    height: 40px;
     padding-left: 10px;  
 }
 
 #icon-git-img{
-    width: 100px;
-    height: 40px; 
     padding: 0;
 }
 
-#img-dev {
-    width: 270px;
-    height: 270px;
-}
-
-/* Cards - Projects content */
+/* Cards - Projects content */  
 .cards{
     background-color: #5fffc7c4;
     padding: 15px;
@@ -138,7 +127,7 @@ hr{
     background-color:  #533A71;
     /* box-shadow: -50px 0 100px #754BA8; */
 }
-
+ 
 .card-description{
     text-align: center;
     border-radius: 5px;
@@ -160,7 +149,7 @@ hr{
 /* Slides in card-body */
 .test-card{
     width: 800px;
-    height: 600px;
+    height: 500px;
 }
 
 /* Form */
